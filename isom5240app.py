@@ -113,3 +113,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+story = story_generator(prompt, return_full_text=False)[0]["generated_text"]
